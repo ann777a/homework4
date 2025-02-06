@@ -27,14 +27,6 @@ h1,h2,h3,h4,h5,h6,p{
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    border: 1px solid #8e8f99;
-    margin-bottom: 8px;
 }
 
 img{
@@ -264,6 +256,16 @@ button{
     width: calc((100% - 72px)/4);
 }
 
+.images-f{
+    display: flex;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    background: #f4f4fd;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
 .advan{
     font-weight: 400;
     font-size: 16px;
